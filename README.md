@@ -1,2 +1,2 @@
 # berlin-clock
-berlin clock made in javascript with html and css
+berlin clock sim made with js (jquery), html and css
