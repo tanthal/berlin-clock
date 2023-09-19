@@ -1,0 +1,38 @@
+body {
+    margin: auto;
+    text-align: center;
+}
+
+.main-container {
+    background-color: grey;
+    height: 300px;
+    width: 400px;
+    text-align: center;
+    padding: 10px;
+}
+
+.cell {
+    height: 45px;
+    width: 65px;
+    border: 3px solid #5A5A5A;
+    display: inline-block;
+}
+
+.cell:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.cell:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.minute-upper .minute.cell {
+    width: 18px;
+}
+
+.second.cell {
+    height: 65px;
+    border-radius: 32.5px;
+}
