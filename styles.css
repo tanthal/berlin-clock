@@ -36,3 +36,11 @@ body {
     height: 65px;
     border-radius: 32.5px;
 }
+
+.cell {
+    background-color: rgb(65, 65, 65);
+}
+
+.on {
+    background-color: red;
+}
